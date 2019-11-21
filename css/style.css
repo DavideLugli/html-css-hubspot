@@ -78,8 +78,8 @@ body {
 .nav-menu-right {
   float: right;
   width: 70%;
- height: 50px;
- background-color: orange;
+  height: 50px;
+  background-color: orange;
 }
 
 .nav-menu-right ul li {
@@ -103,7 +103,6 @@ body {
   height: 500px;
   background-size: cover;
   background-position: bottom center;
-
 }
 
 .jumbo-contain {
@@ -112,15 +111,16 @@ body {
   /* background-color: white; */
   margin: 0 auto;
   position: relative;
+}
 
+.jumbo-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50%;
 }
-.jumbo-content{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 50%;
-}
+
 .divider {
   height: 74px;
   background-color: #AFEBE4;
@@ -132,6 +132,31 @@ body {
 .page-main {
   height: 1200px;
   background-color: #F5F8FA;
+  padding: 30px 0;
+}
+
+.main-top {
+  background-color: rgb(38, 92, 125);
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.main-top-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-top img {
+  width: 35%;
+  /* position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); */
 }
 
 .page-footer {
