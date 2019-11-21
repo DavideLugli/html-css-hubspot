@@ -70,12 +70,16 @@ body {
 
 .nav-menu-left {
   width: 30%;
+  float: left;
+  height: 50px;
+  background-color: green;
 }
 
 .nav-menu-right {
   float: right;
   width: 70%;
-  display: inline;
+ height: 50px;
+ background-color: orange;
 }
 
 .nav-menu-right ul li {
@@ -94,9 +98,29 @@ body {
 }
 
 .jumbo {
-  background-color: orange;
+  /* background-color: orange; */
+  background-image: url("../img/jumbotron.png");
+  height: 500px;
+  background-size: cover;
+  background-position: bottom center;
+
 }
 
+.jumbo-contain {
+  height: 100%;
+  width: 80%;
+  /* background-color: white; */
+  margin: 0 auto;
+  position: relative;
+
+}
+.jumbo-content{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 50%;
+}
 .divider {
   height: 74px;
   background-color: #AFEBE4;
