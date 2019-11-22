@@ -31,7 +31,6 @@ body {
 }
 
 .nav-search-left ul {
-  list-style-image: url("../img/globe.png");
 }
 
 .nav-search-left ul li {
@@ -41,7 +40,6 @@ body {
 }
 
 .nav-search-left ul li:last-child {
-  /* list-style-image: url("../img/globe.png"); */
   color: #33475B;
   padding-left: 10px;
   border-left: 1px solid #33475B;
@@ -56,6 +54,7 @@ body {
 .nav-search-right {
   float: right;
   width: 40%;
+  text-align: right;
 }
 
 .button {
@@ -67,6 +66,7 @@ body {
   background-color: #fff;
   border: 1px solid #FF7A59;
   color: #FF7A59;
+  margin: 0 15px;
 }
 
 .button-orange {
@@ -80,13 +80,11 @@ body {
   /* display: inline-block; */
 }
 
-.nav-search-right ul li a {
-  /* color: white; */
-  text-decoration: none;
+.nav-search-right ul li .fa-search {
+  color: rgb(99, 215, 241);
 }
-
-.nav-search-right ul li a img {
-  width: 8%;
+.nav-search-right ul li a {
+  text-decoration: none;
 }
 
 .header-nav-menu {
