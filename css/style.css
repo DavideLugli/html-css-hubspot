@@ -156,7 +156,7 @@ body {
 
 .jumbo-content p {
   color: #33475B;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6em;
 }
 
@@ -183,14 +183,24 @@ body {
 }
 
 .page-main {
-  height: 1200px;
-  background-color: #dcecf7;
+  /* height: 1400px; */
+  background-color: #F5F8FA;
   padding: 30px 0;
 }
 
+.page-main h2 {
+  color: #33475B;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.page-main p {
+  font-weight: 400;
+  color: #33475B;
+}
+
 .main-top {
-  background-color: rgb(38, 92, 125);
-  height: 300px;
+  height: 400px;
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -202,35 +212,49 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 60%;
 }
 
 .main-top img {
-  width: 35%;
+  width: 40%;
 }
 
 .home-features {
-  height: 400px;
-  background-color: rgb(152, 242, 127);
   width: 80%;
   margin: 0 auto;
 }
 
-.features-top-row::after {
+.feature-top-row {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px #DADBEF;
+  height: 250px;
+}
+
+.feature-top-row::after {
   content: "";
   display: table;
   clear: both;
 }
 
+.feature-top-row h3 {
+  color: #33475B;
+  font-size: 20px;
+}
+
 .col-left {
   width: 30%;
-  background-color: rgb(15, 134, 213);
   height: 200px;
   float: left;
 }
 
-.card-wrapper {
+.feature-top-row .card-wrapper {
   text-align: center;
   position: relative;
+}
+
+.feature-top-row .card-wrapper img {
+  width: 180px;
 }
 
 .card-button {
@@ -241,7 +265,7 @@ body {
 .card-button a {
   background-color: #FF7A59;
   color: white;
-  padding: 8px 12px;
+  padding: 15px 25px;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 500;
@@ -249,7 +273,7 @@ body {
 
 .col-right {
   width: 70%;
-  background-color: rgb(144, 74, 222);
+  /* background-color: rgb(144, 74, 222); */
   height: 200px;
   float: left;
 }
@@ -263,16 +287,22 @@ body {
 }
 
 .features-pop {
-  background-color: rgb(124, 75, 97);
   height: 30px;
-  width: 35%;
+  width: 30%;
   float: left;
 }
 
+.features-pop p {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #33475B;
+  font-size: 14px;
+}
+
 .features-hr {
-  background-color: rgb(238, 83, 153);
+  /* background-color: rgb(238, 83, 153); */
   height: 30px;
-  width: 65%;
+  width: 70%;
   float: left;
   position: relative;
 }
@@ -281,20 +311,103 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 90%;
 }
 
 .features-list {
   width: 100%;
-  background-color: rgb(203, 157, 139);
+  margin-top: 40px;
 }
 
 .features-list ul {
   list-style: none;
 }
 
-.features-list li {
+.features-list ul li {
   display: inline;
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.features-list ul li img {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-bottom: -4px;
+  margin-right: 10px;
+}
+
+.feature-bottom-row {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.feature-bottom-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-row-col {
+  text-align: center;
+  width: 30%;
+  background-color: #fff;
+  float: left;
+  padding: 5px 15px 35px 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px #DADBEF;
+}
+
+.bottom-row-col.col-mid {
+  margin: 0 5%;
+}
+
+.feature-bottom-row h3 {
+  color: #33475B;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.feature-bottom-row .bottom-row-col>p {
+  color: #33475B;
+  line-height: 1.6em;
+  margin-bottom: 20px;
+}
+
+.feature-bottom-row .bottom-row-col hr {
+  color: rgb(69, 70, 68);
+  border-width: 2px;
+  margin: 5px 0 20px 0;
+}
+
+.feature-bottom-row .bottom-features-pop p {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #33475B;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.feature-bottom-row .bottom-features-list {
+  margin-bottom: 25px;
+}
+
+.feature-bottom-row .bottom-features-list ul {
+  list-style: none;
+  text-align: left;
+}
+
+.feature-bottom-row .bottom-features-list ul li {
+  margin-right: 15px;
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #33475B;
+}
+
+.feature-bottom-row .bottom-features-list ul li img {
+  width: 18px;
+  height: 18px;
+  margin: 0 12px -3px 0;
 }
 
 .page-footer {
