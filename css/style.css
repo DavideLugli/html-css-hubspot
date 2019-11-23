@@ -410,6 +410,78 @@ body {
   margin: 0 12px -3px 0;
 }
 
+.insights-container {
+  /* height: 500px; */
+  width: 100%;
+  background: #43cea2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #185a9d, #43cea2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  padding: 35px 0 70px 0;
+}
+
+.insights {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.insights h2 {
+  color: #fff;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.insights p {
+  color: #fff;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.insights-row-containter {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.insights-row-containter::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.insights-row {
+  height: 100px;
+}
+
+.insights-col {
+  float: left;
+  width: 25%;
+  padding: 20px 15px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.insights-row .insights-col:last-child {
+  border-right: 0;
+}
+
+.insights-row.row-bottom .insights-col {
+  border-bottom: 0;
+}
+
+.insights-row-containter i {
+  color: #fff;
+  font-size: 40px;
+}
+
+.insights-row-containter h3 {
+  font-size: 50px;
+  color: #fff;
+  padding: 10px 0;
+}
+
 .page-footer {
   height: 300px;
   background-color: #33475B;
