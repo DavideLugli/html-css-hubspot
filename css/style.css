@@ -161,7 +161,7 @@ body {
 }
 
 .jumbo-button {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 .jumbo-content .jumbo-button a {
@@ -471,15 +471,114 @@ body {
   border-bottom: 0;
 }
 
-.insights-row-containter i {
-  color: #fff;
-  font-size: 40px;
-}
-
 .insights-row-containter h3 {
   font-size: 50px;
   color: #fff;
   padding: 10px 0;
+}
+
+.partners {
+  /* background-color: blue; */
+  width: 80%;
+  /* height: 600px; */
+  margin: 0 auto;
+}
+
+.partners-first-row {
+  /* background-color: pink; */
+  margin: 30px 35px 40px 35px;
+}
+
+.partners-first-row .text-col p {
+  width: 50%;
+  line-height: 1.6em;
+  font-weight: 400;
+}
+
+.partners-first-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.partners-first-row .text-col {
+  float: left;
+  width: 40%;
+  /* background-color: orange; */
+  padding: 20px 40px 20px 20px;
+}
+
+.partners-first-row .logos-col-wrapper {
+  float: left;
+  width: 60%;
+  /* background-color: red; */
+}
+
+.partners-first-row .logos-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.partners-first-row .text-col h2 {
+  font-size: 40px;
+}
+
+.partner-logo {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+.partners-first-row .logos-col .partner-logo img {
+  width: 90%;
+}
+
+.calltoaction {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.calltoaction:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cta-col-left {
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.cta-col-left h2 {
+  width: 80%;
+}
+
+.cta-col-left p {
+  font-weight: 400;
+  width: 80%;
+  line-height: 1.6em;
+}
+
+.cta-col-right {
+  float: right;
+  text-align: right;
+  width: 30%;
+}
+
+.cta-col-right img {
+  width: 350px;
+}
+
+.calltoaction .cta-col-left .jumbo-button a {
+  padding: 25px 30px;
+}
+
+.cta-col-left #info {
+  font-weight: 400;
+  font-size: 0.8em;
 }
 
 .page-footer {
