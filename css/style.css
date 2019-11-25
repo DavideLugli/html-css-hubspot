@@ -135,7 +135,6 @@ body {
 .jumbo-contain {
   height: 100%;
   width: 80%;
-  /* background-color: white; */
   margin: 0 auto;
   position: relative;
 }
@@ -183,7 +182,6 @@ body {
 }
 
 .page-main {
-  /* height: 1400px; */
   background-color: #F5F8FA;
   padding: 30px 0;
 }
@@ -273,8 +271,6 @@ body {
 
 .col-right {
   width: 70%;
-  /* background-color: rgb(144, 74, 222); */
-  height: 200px;
   float: left;
 }
 
@@ -287,7 +283,6 @@ body {
 }
 
 .features-pop {
-  height: 30px;
   width: 30%;
   float: left;
 }
@@ -300,7 +295,6 @@ body {
 }
 
 .features-hr {
-  /* background-color: rgb(238, 83, 153); */
   height: 30px;
   width: 70%;
   float: left;
@@ -411,7 +405,6 @@ body {
 }
 
 .insights-container {
-  /* height: 500px; */
   width: 100%;
   background: #43cea2;
   /* fallback for old browsers */
@@ -478,14 +471,11 @@ body {
 }
 
 .partners {
-  /* background-color: blue; */
   width: 80%;
-  /* height: 600px; */
   margin: 0 auto;
 }
 
 .partners-first-row {
-  /* background-color: pink; */
   margin: 30px 35px 40px 35px;
 }
 
@@ -504,14 +494,12 @@ body {
 .partners-first-row .text-col {
   float: left;
   width: 40%;
-  /* background-color: orange; */
   padding: 20px 40px 20px 20px;
 }
 
 .partners-first-row .logos-col-wrapper {
   float: left;
   width: 60%;
-  /* background-color: red; */
 }
 
 .partners-first-row .logos-col-wrapper:after {
@@ -582,20 +570,13 @@ body {
 }
 
 .page-footer {
-  /* position: relative; */
-  /* height: 500px; */
   background-color: #33475B;
   padding-top: 50px;
 }
 
 .footer-row {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   width: 80%;
   margin: 0 auto;
-  /* height: 400px; */
 }
 
 .footer-row::after {
@@ -629,16 +610,16 @@ body {
   padding: 12px 0;
 }
 
-.contact-links {
-  /* height: 200px; */
-}
-
 .contact-links .button-grey {
   background-color: #EBEDEF;
   border-radius: 5px;
-  padding: 12px;
+  padding: 8px;
   color: #33475B;
   margin-top: 10%;
+}
+
+.contact-links {
+  margin-top: 12px;
 }
 
 .contact-links ul a i {
@@ -652,8 +633,6 @@ body {
 }
 
 .footer-lang-wrapper {
-  /* height: 100px; */
-  /* background-color: yellow; */
   width: 100%;
   margin-bottom: 50px;
 }
@@ -696,5 +675,25 @@ body {
 .footer-bottom-col {
   width: 50%;
   float: left;
-  background-color: blue;
+}
+
+.footer-bottom-col p {
+  color: #cbd6e2;
+  font-size: 12px;
+}
+
+.footer-bottom-col ul {
+  list-style: none;
+  text-align: right;
+}
+
+.footer-bottom-col ul li {
+  display: inline;
+}
+
+.footer-bottom-col ul li a {
+  text-decoration: none;
+  color: #cbd6e2;
+  padding: 12px;
+  font-weight: 400;
 }
